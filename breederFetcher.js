@@ -5,7 +5,7 @@ request(`https://api.thecatapi.com/v1/breeds/search?q=${argv[0]}`, function(erro
   const data = JSON.parse(body);//turn body into object
   
   if (error) {
-    return console.log(`Request not found`,error);//if website doesn't work return erro
+    return console.log(`Request not found`,error);//if website doesn't work return error
   }
   
   if (data[0] === undefined) {
