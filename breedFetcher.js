@@ -1,5 +1,4 @@
 const request = require('request');
-// const argv = process.argv.slice(2);
 
 
 const fetchBreedDescription = function(breedName, callback) {

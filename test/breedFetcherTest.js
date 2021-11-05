@@ -15,7 +15,7 @@ describe('fetchBreedDescription', () => {
       done();
     });
   });
-
+   //copied true scenario and changed to null
   it('returns null when invalid breed, via callback', (done) => {
   fetchBreedDescription('Hello', (err, desc) => {
     
